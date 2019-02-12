@@ -37,5 +37,4 @@ class Artist
   def print_songs
     self.songs.collect { |song| puts song.name }
   end
-dont
 end
