@@ -1,5 +1,6 @@
 require 'pry'
 
+=begin
 class Artist
 
   attr_accessor :name, :song, :songs
@@ -38,3 +39,4 @@ class Artist
     self.songs.collect { |song| puts song.name }
   end
 end
+=end
